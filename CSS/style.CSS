@@ -110,28 +110,47 @@ img {
 .messengers__vebinarplatform:nth-child(1) {
     top: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 4px 18px 40px #388ffc;
+    box-shadow: 0px 4px 38px 9px #388ffc;
+}
+.messengers__vebinarplatform:nth-child(1):hover {
+    box-shadow: 0px 0px 8px 3px #388ffc;
 }
 .messengers__vebinarplatform:nth-child(2) {
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 38px 9px #586aea;
+}
+.messengers__vebinarplatform:nth-child(2):hover {
+    box-shadow: 0px 0px 8px 3px #586aea;
 }
 .messengers__vebinarplatform:nth-child(3) {
     top: 50%;
     right: 0;
     transform: translate(50%, -50%);
+    box-shadow: 0px 0px 38px 9px #00a8e3;
+}
+.messengers__vebinarplatform:nth-child(3):hover {
+    box-shadow: 0px 0px 8px 3px #00a8e3;
 }
 .messengers__vebinarplatform:nth-child(4) {
     left: 50%;
     bottom: 0;
     transform: translate(-50%, 50%);
+    box-shadow: 0px 0px 38px 9px  #198039;
+}
+.messengers__vebinarplatform:nth-child(4):hover {
+    box-shadow: 0px 0px 8px 3px #198039;
 }
 .messengers__vebinarplatform:nth-child(5) {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid green;
-    content: 'Здесь ещё пока идёт ремонт';
+    width: 108px;
+    height: 108px;
+    box-shadow: 0px 0px 38px 9px  #ff9e00;
+}
+.messengers__vebinarplatform:nth-child(5):hover {
+    box-shadow: 0px 0px 8px 3px #ff9e00;
 }
 .title {
 
