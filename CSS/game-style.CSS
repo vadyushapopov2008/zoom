@@ -1,0 +1,9 @@
+.hero {
+    position: relative;
+    padding: 158px 0px;
+    text-align: center;
+    background: url(../site-images/hero-section/ficus-game.jpg) no-repeat center/cover;
+}
+.hero__etage {
+    color: white;
+}
